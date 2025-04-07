@@ -13,9 +13,9 @@ GitHub link: https://github.com/jm-2oo/airflow'''
 st.markdown(top_text)
 
 st.subheader('Architecture diagram of the ETL process:')
-image = Image.open('police_architecture.png')
+image = Image.open('image/police_architecture.png')
 st.image(image, caption='Architecture diagram', output_format='PNG', width=800)
 
 st.subheader('Conceptual model of the police data:')
-image = Image.open('police_conceptual.png')
+image = Image.open('image/police_conceptual.png')
 st.image(image, caption='Police data conceptual model', width=400)
